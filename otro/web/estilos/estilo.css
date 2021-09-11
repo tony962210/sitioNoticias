@@ -1,0 +1,191 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+#fondo{
+    background: #E97800;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#cabecera{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #000000;
+    color: white;
+    font-size: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #666;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #33cccc;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#seccion0{
+    padding-left: 25px;
+    background-color: rgba(242, 242, 242,.95);
+    width:45%;
+    left: 25%;
+    padding-left:50px;
+    margin-left: 25%;
+    border-radius:10px;
+    font-size:2vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#seccion1{
+    position: relative;
+    float: left;
+    background-color: white;
+    background-position: center;
+    width:33%;
+    height:75%;
+    padding:5px;
+    margin:2px;
+    left: 5%;
+    border-radius:10px;
+    border-color:orange;
+    border-style:double;
+    font-color:#007BB4;
+    text-align:center;
+    font-size:2vw;
+}
+
+#seccion2{
+    position: relative;
+    float: right;
+    right: 5%;
+    background-color: white;
+    background-position: center;
+    width:33%;
+    height:75%;
+    padding:5px;
+    margin:2px;
+    border-radius:10px;
+    border-color:orange;
+    border-style:double;
+    font-color:#007BB4;
+    text-align:center;
+    font-size:2vw;
+}
+
+#art1{
+    background-color: #66000000;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    width:60%;
+    margin:5px;
+    border-radius:50px;
+    border-color:orange;
+    border-style:ridge;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size:2vw;
+    font-family: "Comic Neue";
+}
+
+#art2{
+    position: relative;
+    background-color: white;
+    background-position: center;
+    width:70%;
+    left: 15%;
+    padding:5px;
+    margin:2px;
+    border-radius:10px;
+    border-color:orange;
+    border-style:double;
+    font-color:#007BB4;
+    text-align:center;
+    font-size:2vw;
+    font-family: "Comic Neue";
+}
+
+#pie{
+    position: relative;
+    margin-top: -50px;
+    clear: both;
+    background-color: white;
+    position: relative;
+    background-position: center;
+    border-radius:10px;
+    border-color:black;
+    border-style:double;
+    text-align:center;
+    padding-top: 10px;
+    font-family: "Comic Neue";
+}
+
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:2vw;
+
+} 
+nav li{
+    width: 20vw;
+    display: inline;
+    padding:5px 10px;
+    background-color:#E97800;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+nav li:hover{
+    background-color:white;
+    color:blue;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Codigo Importado ;)*/
